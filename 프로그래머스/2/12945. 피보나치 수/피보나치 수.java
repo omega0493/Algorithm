@@ -7,7 +7,7 @@ class Solution {
         
         fibo = new int[n + 1];
         
-        int i = DFS(n);
+        DFS(n);
         
         answer = fibo[n];
         
