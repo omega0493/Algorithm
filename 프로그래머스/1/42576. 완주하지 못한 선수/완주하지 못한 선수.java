@@ -14,7 +14,7 @@ class Solution {
         }
         
         for(Map.Entry<String, Integer> entry : map.entrySet()) {
-            if(entry.getValue() > 0) {
+            if(entry.getValue() == 1) {
                 answer = entry.getKey();
             } 
         }
